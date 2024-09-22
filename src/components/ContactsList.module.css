@@ -49,3 +49,24 @@ li{
         width: 100%;
     }
 }
+
+.confirmModal{
+    position: relative;
+    border-radius: 7px;
+    border:1px solid #a70105;
+    bottom: 300px;
+    width: 450px;
+    left: 150px;
+    background-color: burlywood;
+    padding: 15px 10px 15px 10px;
+}
+
+.modalBtn{
+    color: #a70105;
+    border-radius: 7px;
+    width: 70px;
+    margin-left: 10px;
+    width: auto;
+    padding: 5px 7px 5px 7px;
+    margin-top: 7px;
+}

@@ -1,54 +1,53 @@
 {
-    "contacts": [
-      {
-        "id": 1,
-        "name": "Ali",
-        "lastname": "Ahmadi",
-        "phone": "09144894082",
-        "email": "ali.ahmadi@example.com"
-      },
-      {
-        "id": 2,
-        "name": "Sara",
-        "lastname": "Mohammadi",
-        "phone": "09144894083",
-        "email": "sara.mohammadi@example.com"
-      },
-      {
-        "id": 3,
-        "name": "Reza",
-        "lastname": "Karimi",
-        "phone": "09144894084",
-        "email": "reza.karimi@example.com"
-      },
-      {
-        "id": 4,
-        "name": "Maryam",
-        "lastname": "Hosseini",
-        "phone": "09144894085",
-        "email": "maryam.hosseini@example.com"
-      },
-      {
-        "id": 5,
-        "name": "Hossein",
-        "lastname": "Rahimi",
-        "phone": "09144894086",
-        "email": "hossein.rahimi@example.com"
-      },
-      {
-        "id": 6,
-        "name": "Mina",
-        "lastname": "Farhadi",
-        "phone": "09144894087",
-        "email": "mina.farhadi@example.com"
-      },
-      {
-        "id": 7,
-        "name": "Ali",
-        "lastname": "Hashemi",
-        "phone": "09144894088",
-        "email": "ali.hashemi@example.com"
-      }
-      
-    ]
-  }
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Ali",
+      "lastname": "Ahmadi",
+      "phone": "09144894082",
+      "email": "ali.ahmadi@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Sara",
+      "lastname": "Mohammadi",
+      "phone": "09144894083",
+      "email": "sara.mohammadi@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Reza",
+      "lastname": "Karimi",
+      "phone": "09144894084",
+      "email": "reza.karimi@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Maryam",
+      "lastname": "Hosseini",
+      "phone": "09144894085",
+      "email": "maryam.hosseini@example.com"
+    },
+    {
+      "id": "5",
+      "name": "Hossein",
+      "lastname": "Rahimi",
+      "phone": "09144894086",
+      "email": "hossein.rahimi@example.com"
+    },
+    {
+      "id": "6",
+      "name": "Mina",
+      "lastname": "Farhadi",
+      "phone": "09144894087",
+      "email": "mina.farhadi@example.com"
+    },
+    {
+      "id": "7",
+      "name": "Ali",
+      "lastname": "Hashemi",
+      "phone": "09144894088",
+      "email": "ali.hashemi@example.com"
+    }
+  ]
+}
