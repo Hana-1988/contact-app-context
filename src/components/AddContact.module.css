@@ -1,0 +1,152 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+.mainLeft{
+    width: 25%;
+    height: 550px;
+}
+.mainRight{
+    width: 75%;
+    height: 550px;
+    background: #f6ffcb;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.leftContainer{
+    background: #f6ffcb;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.leftContainer2{
+    background: #f6ffcb;
+    padding: 1rem;
+    margin: 22px 16px 16px 16px;
+    border-radius: 0.5rem;
+    text-align: center;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+input {
+    margin: 5px;
+    border-radius: 9px;
+    padding: 0.5rem;
+}
+.inputs{
+    margin-top: 15px;
+}
+.searchInput{
+    margin-top: 15px;
+}
+.addContactBtn{
+    outline: 0;
+    margin: 0.5rem;
+    border-radius: 9px;
+    width: 200px;
+    padding: 0.5rem;
+    cursor: pointer;
+    background: rgb(200,200,200);
+    font-size: 15px;
+    font-weight: bold;
+    align-self: center;
+}
+.searchtBtn{
+    outline: 0;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    width: 200px;
+    padding: 0.5rem;
+    cursor: pointer;
+    background: rgb(200,200,200);
+    font-size: 15px;
+    font-weight: bold;
+    align-self: center;
+}
+
+.confirmModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.modalBtn{
+    margin: 15px;
+    width: 70px;
+    padding: 5px 17px 5px 15px;
+}
+
+@media (max-width:425px){
+    .main{
+        flex-direction: column;
+    }
+    .mainLeft{
+        width: auto;
+    }
+    .mainRight{
+        width: auto;
+        margin-top: 30px;
+    }
+}
+@media (max-width:768px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainLeft{
+        width: 100%;
+        margin: auto;
+    }
+    .mainRight{
+        width: 100%;
+        margin-top: 30px;
+    }
+    input{
+        width: 100%;
+    }
+    .addContactBtn{
+        width: 100%;
+    }
+    .searchtBtn{
+        width: 100%;
+        margin-top: 7px;
+    }
+}
+@media(max-width:1024px){
+    .main{
+        width: 100%;
+    }
+    .mainLeft , .mainRight{
+        width: 100%;
+    }
+    .addContactBtn{
+        width: 100%;
+    }
+    .searchtBtn{
+        width: 100%;
+        margin-top: 7px;
+    }
+}
+
+

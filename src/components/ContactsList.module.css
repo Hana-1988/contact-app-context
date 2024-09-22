@@ -1,0 +1,51 @@
+.contactsList{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    background: rgba(200,200,200,0.25);
+    padding: 0.25rem 0.5rem;
+    margin: 1rem auto 0.5rem auto;
+    border-radius: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.deleteBtn{
+    color: #a70105;
+    border-radius: 7px;
+    width: 70px;
+    margin-left: 10px;
+}
+.item p{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+@media(max-width:425px){
+    li{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+    .deleteBtn{
+        margin-top: 7px;
+    }
+}
+@media(max-width:1024px){
+    li{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        gap: 10px;
+    }
+    input{
+        width: 100%;
+    }
+}
